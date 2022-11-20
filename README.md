@@ -43,7 +43,7 @@ RegisterNumber:  212221230051
 */
 Logic symbol & Truthtable
 RTL realization
-
+```
 ### Half adder:
 module half_adder(a,b,sum,carry);
 input a,b;
@@ -51,14 +51,16 @@ output sum,carry;
 assign sum = (a^b);
 assign carry = (a&b);
 endmodule
-
+```
 ### Full adder program:
+```
 module full_adder (a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
 assign sum = (a^b^c);
 assign carry = ((a&b)|(a^b)&c);
 endmodule
+```
 
 ## Output:
 ### Logic symbol & Truthtable:
